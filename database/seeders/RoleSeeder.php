@@ -15,8 +15,8 @@ class RoleSeeder extends Seeder
     public function run()
     {
         $roles = [
-            ['id' => 1, 'name' => 'Kepala Dinas', 'guard_name' => 'web', 'created_at' => Carbon::parse('2025-03-04 19:31:14'), 'updated_at' => Carbon::parse('2025-03-08 23:40:26')],
-            ['id' => 2, 'name' => 'Admin', 'guard_name' => 'web', 'created_at' => Carbon::parse('2025-03-05 20:22:01'), 'updated_at' => Carbon::parse('2025-03-05 20:22:01')],
+            ['id' => 1, 'name' => 'Admin', 'guard_name' => 'web', 'created_at' => Carbon::parse('2025-03-04 19:31:14'), 'updated_at' => Carbon::parse('2025-03-08 23:40:26')],
+            ['id' => 2, 'name' => 'Kepala Dinas', 'guard_name' => 'web', 'created_at' => Carbon::parse('2025-03-05 20:22:01'), 'updated_at' => Carbon::parse('2025-03-05 20:22:01')],
             ['id' => 3, 'name' => 'Sekretaris Dinas', 'guard_name' => 'web', 'created_at' => Carbon::parse('2025-03-08 01:01:35'), 'updated_at' => Carbon::parse('2025-03-08 22:58:04')],
             ['id' => 4, 'name' => 'Petugas', 'guard_name' => 'web', 'created_at' => Carbon::parse('2025-03-08 01:03:08'), 'updated_at' => Carbon::parse('2025-03-08 01:03:08')],
             ['id' => 5, 'name' => 'Bagian Keuangan', 'guard_name' => 'web', 'created_at' => Carbon::parse('2025-03-08 01:04:05'), 'updated_at' => Carbon::parse('2025-03-08 22:57:52')],
